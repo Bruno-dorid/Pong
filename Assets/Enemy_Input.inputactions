@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "Enemy_Input",
+    "maps": [
+        {
+            "name": "Enemy",
+            "id": "15b018ed-b237-407e-8102-9ffec39353ce",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "0f95d388-4b3b-4e2c-9ddc-d62fd388eada",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "015b77fa-7ae9-47bf-8388-95f53ad1b74e",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "19dd02c3-aeba-4139-881a-17454c033e6c",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "38585d01-6588-4166-8836-57bcc674cd5c",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
